@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MY FIRST PROJECT</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(45deg, #007BFF, #00D4FF);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #0056b3;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: url('https://via.placeholder.com/1500x600') no-repeat center center/cover;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: white;
+            background: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #0056b3;
+        }
+
+        .about, .services, .contact {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .about {
+            background: #f4f4f4;
+        }
+
+        .services {
+            background: white;
+        }
+
+        .services h2 {
+            margin-bottom: 20px;
+        }
+
+        .services .card {
+            display: inline-block;
+            background: #f4f4f4;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .services .card h3 {
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            background: #333;
+            color: white;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<header>
+        <h1>Business Website</h1>
+        <p>Modern Design & Awesome Layout</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div>
+            <h1>Welcome to the Future</h1>
+            <p>Explore the cutting-edge design and functionality</p>
+            <a href="#services" class="btn">Explore Services</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>We are a leading company in providing exceptional web solutions. <a href="results/">CLICK FOR RESULTS</a>  Our team is dedicated to delivering high-quality, innovative, and creative solutions for your business.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="card">
+            <h3>Web Development</h3>
+            <p>We create responsive and modern <a href="text/">click here to see text page</a>  to your needs.</p>
+        </div>
+        <div class="card">
+            <h3>App Development</h3>
+            <p>Customized mobile apps to take your business to the next level.</p>
+        </div>
+        <div class="card">
+            <h3>Digital Marketing</h3>
+            <p>Effective strategies to boost your online presence and sales.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Feel free to reach out!</p>
+        <p>Email: info@website.com | Phone: +123 456 7890</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Business Website | All Rights Reserved</p>
+    </footer>
+
+
+
+</body>
+</html>
